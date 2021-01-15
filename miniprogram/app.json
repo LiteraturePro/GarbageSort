@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/ai/index",
+    "pages/ai/search",
+    "pages/ai/camera/camera",
+    "pages/result/list",
+    "pages/result/commit",
+    "pages/test/test",
+    "pages/index/index",
+    "pages/android/qa"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#00cc77",
+    "navigationBarTitleText": "垃圾智能分类",
+    "navigationBarTextStyle": "white"
+    },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/ai/index",
+        "text": "识别",
+        "iconPath": "images/sao2.png",
+        "selectedIconPath": "images/sao2.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "指南",
+        "iconPath": "images/know2.png",
+        "selectedIconPath": "images/know2.png"
+      },
+      {
+        "pagePath": "pages/test/test",
+        "text": "答题",
+        "iconPath": "images/dati.png",
+        "selectedIconPath": "images/dati.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
